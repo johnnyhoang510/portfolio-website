@@ -3457,6 +3457,18 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
+	#headshot {
+		-moz-transition: background-color 0.2s ease;
+		-webkit-transition: background-color 0.2s ease;
+		-ms-transition: background-color 0.2s ease;
+		transition: background-color 0.2s ease;
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+		object-fit: cover;
+		text-align: center;
+	}
+
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
